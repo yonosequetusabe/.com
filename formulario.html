@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- AGREGAMOS UN ICONO EN LA PESTAÑA -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- ENLACE DE FUENTES -->
+    <link href="https: //fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <!-- ENLACES EXTERNO PARA ICONOS -->
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+    <!-- ENLACE EXTERNO PARA DISEÑO WEB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ENLACE  NUESTRO CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<!-- INICIO DE -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: red;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.svg" alt="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link activec menu" aria-current="page" href="index.html"  target="_blank">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="login.html" target="_blank" >LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="formulario.html" target="_blank">CONTACTO</a>
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="matricula.html" target="_blank">MATRICULA</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fin de menu -->
+
+    <br>
+    <br>
+    <article class="container">
+        <form action="enviar.php" method="post">
+            <section class="row">
+                <section class="col-xs-12 col-sm-12 col-md-6">
+                    <img src="img/contacto.jpg" alt="" class="imgss-fluid">
+                </section>
+                <section class="col-xs-12 col-sm-12 col-md-6">
+                    <label>Nombre:</label>
+                    <input type="tex" name="nombre" placeholder="ingrese su nombre" required>
+                    <label >Correo</label>
+                    <input type="email" name="email" placeholder="ingrese su Correo" required>
+                    <label >Celular</label>
+                    <input type="tel" name="telefono" placeholder="ingrese su Celular" required>
+                    <textarea placeholder="Escriba aqui su mensaje"></textarea>
+                    <input type="submit" name="mensaje" class= " boton"> 
+
+                </section>
+            </section>
+        </form>
+    </article>
+
+</body>
+
+</html>s

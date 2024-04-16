@@ -1,0 +1,160 @@
+root {
+    --color-primario: #EC111A;
+    --sombre: #000000;
+}
+.menu{
+    color: #fff !important;
+    font-weight: bold;
+    font-family: 'roboto';
+}
+.menu:hover{
+    color: #8F7363!important;
+}    
+
+.busqueda{
+    color: black;
+    font-size: .8em;
+}
+
+.botoncito{
+    color: #8F7363;
+    background-color: #fff;
+}
+.botoncito:hover{
+    background-color: #B8E9C6;
+    transition: background-color 0s ease-in-out;
+    border: 1px solid #000;
+}
+.titulo-inicio{
+    color: #070f4d;
+    font-size: 2em;
+}
+.blanco{
+    color: #fff;
+    font-size: 2em ;
+}
+.blanco2{
+    color: #fff;
+}
+.container4{
+    background-color: #070f4d;
+}
+
+.enviar{
+    background-color: #EC111A; 
+    color: #fff;
+    font-weight: bold;
+    border-radius: .5em;
+}
+.enviar:hover{
+    background-color: #000;
+    transition: background-color 0s ease-in-out;
+    border: 1px solid #000;
+}
+
+
+
+.parrafo1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #EC111A;
+}
+.parrafo5{
+    color: #EC111A;
+    font-size: 2em;
+}
+.ultimo{
+    text-align: center;
+    color: #070f4d;
+    
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 0 0 33.3333%; 
+    padding: 10px; 
+}
+
+.card-img {
+    text-align: center; 
+}
+
+
+
+.foto{
+    border-radius: .5em  1em 0  0 ;
+}
+.foto:hover{
+    transform: scale(1.2);
+    transition: transform .4s;
+}
+
+.card-conten{
+    padding: 1em;
+}
+.titulo{
+    font-size: 1.4em;
+    text-align: center;
+    color: var(--color-primario);
+    font-family: 'montserrat';
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.parrafo{
+    font-size: 1em;
+    font-family: 'roboto';
+    text-align: justify;
+
+
+}
+.footer{
+    background-color: black;
+}
+
+.footer, .footer_h1, .footerp, .footer_i{
+    color: white;
+}
+
+.footer__section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.footerContainer__content{
+    display: flex;
+    gap: 50px;
+}
+
+.footer__i{
+    font-size: 30px;
+    margin-top: 3px;
+}
+
+.footer, .footer__h1{
+    font-size: 20px;
+}
+
+.footer, .footer__p{
+    font-size: 16px;
+}
+.footer__section-2{
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer__section-2 span{
+    color: #b51a3d;
+}
+
+.footer__section-2 p{
+    color: #969295;
+}

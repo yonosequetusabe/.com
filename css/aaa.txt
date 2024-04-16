@@ -1,0 +1,61 @@
+
+
+
+form{
+    border-radius: .5em;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #000000;
+    width: 100%;
+}
+input{
+    width: 75%;
+    border:1px solid #41F8E5 ;
+    padding: .3em ;
+    margin: .2em ;
+    border-radius: 0.5em;
+}
+.titulo-matricula{
+    font-size: 1.5em;
+    text-align: center;
+    background-color: yellow;
+    box-shadow: 0px 0px 8px #000;
+}
+.titulo-info{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.boton{
+    text-align: center ;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    border: #000;
+}
+.boton:hover{
+    background-color: #EC111A;
+    color: #fff;
+    transition: background-color .3s  ease-in-out;
+}
+.centrar-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cajita{
+    text-align: justify;
+    width: 40px;
+    font-size: .8em;
+}
+
+.politicas{
+    text-align: justify;
+    color: #EC111A;
+    font-size: .8em;
+}
+.checkbox-label {
+    display: flex;
+    align-items: center;
+}

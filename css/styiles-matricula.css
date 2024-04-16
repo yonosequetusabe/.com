@@ -1,0 +1,106 @@
+:root {
+    --color-primario: #EC111A;
+    --sombre: #000000;
+}
+
+
+.menu{
+    color: #fff !important;
+    font-weight: bold;
+    font-family: 'roboto';
+}
+.menu:hover{
+    color: #8F7363!important;
+}    
+
+.titulo{
+    display: inline-block;
+    font-family: 'montserrat';
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+.titulo2{
+    font-family: 'montserrat';
+    font-weight: 700;
+    color: var(--color-primario);
+}
+
+
+.busqueda{
+    color: black;
+    font-size: .8em;
+}
+
+.botoncito{
+    color: #8F7363;
+    background-color: #8BCDBE;
+}
+.botoncito:hover{
+    background-color: #B8E9C6;
+    transition: background-color 0s ease-in-out;
+    border: 1px solid #000;
+}
+
+form{
+    background-color: #fff;
+    border-radius: .4em;
+    max-width: 400px ;
+    padding: 2em;
+    margin: auto;
+    box-shadow: 8px 8px 8px 8px #B4B4AC;
+
+}
+
+input{
+    width: 100%;
+    border: 1px solid #8BCDBE;
+    border-radius:.5em ;
+    margin: .2em;
+}
+
+.politicas{
+    color: #EC111A;
+    text-decoration: underline;
+}
+
+
+
+.cajita{
+    width: 5%;
+}
+
+.titulo-matricula{
+    font-size: 1.7em;
+    text-align: center;
+    background-color: yellow;
+    box-shadow: 0px 0px 8px #000;
+    font-weight: bold;
+    
+}
+
+.fa-solid.fa-book-atlas {
+    font-size: 2em; 
+    
+}
+
+.fa-solid.fa-users-rectangle {
+    font-size: 2em; /* Cambia el tamaño del icono */
+     /* Cambia el color del icono si lo deseas */
+}
+.titulo-info{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.boton{
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+.boton:hover{
+    background-color: #EC111A;
+    transition: background-color 0s ease-in-out;
+    border: 1px solid #000;
+
+}

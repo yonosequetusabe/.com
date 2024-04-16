@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- AGREGAMOS UN ICONO EN LA PESTAÑA -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<!-- ENLACE DE FUENTES -->
+<link href="https: //fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https: //fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+<!-- ENLACES EXTERNO PARA ICONOS -->
+<script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+<!-- ENLACE EXTERNO PARA DISEÑO WEB -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- ENLACE  NUESTRO CSS -->
+<link rel="stylesheet" href="css/styiles-matricula.css">
+
+<body>
+    <!-- INICIO DE -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: red;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.svg" alt="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link activec menu" aria-current="page" href="index.html"
+                            target="_blank">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="login.html" target="_blank">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="formulario.html " target="_blank">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="matricula.html" target="_blank">MATRICULA</a>
+                    </li>
+                </ul>
+                <label class="d-flex">
+                    <input class="busqueda" type="search" placeholder="Search" aria-label="Search">
+                    <button class="botoncito" type="submit">Search</button>
+                </label>
+            </div>
+        </div>
+    </nav>
+    <!-- fin de menu -->
+
+    <!-- INICIO DE CONTENIDO - SISTEMA DE REJILLAS -->
+    <article class="container">
+        <section class="row">
+            <section class="col-xs-12 col-sm-6 col-md-8">
+                <br><br>
+                <i class="fa-solid fa-book-atlas"></i>
+                <h1 class="titulo">Acerca <span class="titulo2">del Programa </span> </h1>
+                <p>El programa permitira que los participantes logren manejar la herramienta de procesamiento de datos mas comercial en la actualidad, que facilita el trabajo operativo y toma las deciciones a nicel gerencial. Es decir, podra adquirir el conocimiento de las funciones principales de este programa informatico y de sus diversas herramientas con el fin de usarki a nivel administrativo en una empresa u organizacion.
+                    </p>
+                <p>Microsoft Excel es la herramienta que maximiza los datos de las empreas para almaenar, comparar y analizar informacion de manera eficaz. Asimismo, mediante la hoja de calculo de este programa se desarrollan proyectos con imagenes, graficos estadisticos, fuunciones desarrolladas, formularios interactivos, consultas a base de datos, entre otras funciones.</p>
+                <i class="fa-solid fa-users-rectangle"></i>
+                <h2>Campo <span class="titulo2">Laborar</span> </h2>
+                <p>El curso de Formacion Continua de Excel Profesional esta dirigido a profesionales, estudiantes y publico en general interesados en adquirir conocimientos de Excel. El desarrollo de este curso permitira potenciar las capacidades de los participantes para lograr mejorar su perfil profesional con conocimientos actulizados y requeridos por el mercado laborar, de esta manera facilitar su insercion.  </p>
+
+            </section>
+            <section class="col-xs-12 col-sm-6 col-md-4">
+                <br><br>
+                <h1 class="titulo-matricula">!Matricula Gratis¡</h1>
+                <form action="enviar-matricula.php" method="post">
+                    <h2 class="titulo-info">Solicita mas información aqui</h2>
+                    <input type="text" name="nombres" placeholder="Nombres" required>
+                    <input type="text" name="apellidos" placeholder="Apellidos" required>
+                    <input type="email" name="correo" placeholder="Correo Electronico" required>
+                    <input type="tel" name="telefono" placeholder="Telefono/Celular" required>
+                    <input class="cajita" type="checkbox"> Acepto haber leído las <span class="politicas">políticas de
+                        seguridad</span> y los <span class="politicas">términos y condiciones</span>
+
+                    <center>
+                        <input type="submit" value="Solicitar" class="boton" required>
+                    </center>
+
+
+                </form>
+            </section>
+        </section>
+    </article>
+    <!-- FIN DE CONTENIDO -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
